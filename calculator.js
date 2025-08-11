@@ -24,7 +24,8 @@ function calculateResult() {
         const expression = display.value;
         const result = eval(expression);
         
-        console.log('=====================');
+        
+        console.log("--------------------")
         console.log('CALCULATION PERFORMED:');
         console.log('Expression: ' + expression);
         console.log('Result: ' + result);
