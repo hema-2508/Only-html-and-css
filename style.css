@@ -1,0 +1,52 @@
+/* .subscribe{
+    background-color: red;
+    border: none;
+
+    border-radius: 10px;
+    color: white;
+    font-weight: 520;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.white-button{
+    background-color: rgb(239, 230, 213);
+    width: 100px;
+    height: 35px;
+    border-radius: 30px;
+    color: black;
+    font-weight: 600;
+    font-family: sans-serif;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px black;
+}
+p{
+    display:inline-block;
+    
+}
+.div-border{
+    border: solid;
+    border-color: red;
+    padding: 10px;
+    
+    
+}
+.flex-concept{
+    display: inline-block;
+    margin: 10px;
+
+}
+/* div>p{
+    color: red;
+} */
+/* div p{
+    color: green;
+} */
+/* h1+p{
+    background-color: aqua;
+} */ 
+

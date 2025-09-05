@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center; 
+            background-color: rgb(180, 176, 176);
+            height:100vh ;
+            align-items: center;
+            margin: 0;
+        }
+        .login-container{
+            background-color: white;
+            padding: 40px;
+            border-radius: 25px;
+            border: solid;
+            border-width: 30px;
+            border-image:linear-gradient(to right, darkblue, darkorchid) 1;
+            
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 19px;
+        }
+
+        .login-container input{
+            background-color: rgb(245, 242, 242);
+            border: none;
+            border-radius: 30px;
+            padding: 12px;
+            width: 250px;
+            font-size: 12px;
+        }
+        .login-container button{
+            background-image: linear-gradient(45deg,red ,orange,yellow);
+            border: none;
+            border-radius: 30px;
+            padding: 12px;
+            color: white;
+            transition:  opacity 3s;
+
+        }
+        p{
+            font-size:22px ;
+            font-weight: bolder;
+            margin-bottom: 15px;
+        }
+        .login-container button:hover{
+            cursor: pointer;
+            opacity: 0.2;
+            
+        }
+        .login-container button:active{
+            opacity: 1;
+            cursor: pointer;
+            background-color: brown;
+            background-image: linear-gradient(45deg, darkblue, darkorchid);
+            
+            
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="login-container">
+        <p>Welcome<p>
+        <form>
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <button type="submit">Sign In</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
