@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    background-color: white;
+    padding: 1.5rem;
+    gap: 3rem;
+}
+
+.row1{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.row2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.search{
+    align-self: center;
+    display: flex;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgb(172, 171, 171);
+    gap: 10px;
+    width: max-content;
+    height: max-content;
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+.material-symbols-outlined{
+    color: gray;
+}
+
+.search-bar1{
+    border-radius: 50px;
+}
+
+.search-bar2{
+    border-radius: 50px;
+}
+
+.search-bar3{
+    margin-left: 12px;
+    display: flex;
+    gap: 7px;
+}
+
+.bar{
+
+    align-self: center;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgb(172, 171, 171);
+    padding: .8rem;
+}
+
+.icon{
+    align-self: center;
+    box-shadow: 5px 5px 10px rgb(172, 171, 171);
+    padding: .5rem;
+    border-radius: 50%;
+}
+
+button{
+    background-color: rgb(93, 113, 139);
+    border: none;
+    border-radius: 50%;
+    padding: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+}
+
+.dash{
+    font-size: 20px;
+    font-weight: 600;
+    color: gray;
+}
+
+
